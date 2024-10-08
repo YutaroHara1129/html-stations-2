@@ -1,0 +1,16 @@
+#animation {
+  background-color: skyblue;
+  color: yellow;
+  animation:
+    2s linear 0s fade-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
